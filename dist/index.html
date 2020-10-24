@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+
+<!--
+1. Отцентрировать h2 "Cards" вертикально, внутри panel элемента
+2. Подвинуть input и button к правому краю panel
+3. Убрать outline у button и input при фокусе на них
+4. Пусть у card__title будет font-size: 24px, а у card__text - font-size: 18px, но в REM-эквиваленте
+5. Крестик card__dismiss должен находится вверху и справа карточки, но не вверху экрана
+6. Разместить карточки 4 в ряд, занимая всю возможную ширину, переносить карточки в следующий ряд, если не умещаются в своем ряду
+7. Заменить текст, выходящий за границы кнопки на троеточие, не меняя ширины кнопки
+8. Убрать возможность выделить card__text курсором
+9. (JS) При нажатии на крестик - скрыть карточку, в которой находится крестик
+-->
+
+    <div class="panel">
+      <div class="row">
+        <h2 class="panel__title">Cards</h2>
+        <input class="text-field" type="text" placeholder="Title">
+        <button class="btn">Add&nbsp;another&nbsp;card</button>
+      </div>
+    </div>
+
+    <div class="cards">
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <h3 class="card__title">Card 1</h3>
+            <div class="card__text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </div>
+            <button class="card__dismiss">&times;</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <h3 class="card__title">Card 2</h3>
+            <div class="card__text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </div>
+            <button class="card__dismiss">&times;</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <h3 class="card__title">Card 3</h3>
+            <div class="card__text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </div>
+            <button class="card__dismiss">&times;</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <h3 class="card__title">Card 4</h3>
+            <div class="card__text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </div>
+            <button class="card__dismiss">&times;</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <h3 class="card__title">Card 5</h3>
+            <div class="card__text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </div>
+            <button class="card__dismiss">&times;</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
