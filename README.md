@@ -15,7 +15,7 @@ git clone git@github.com:barbequeue/frontend_task.git
 npm install
 ```
 
-3. You are now able to complete the task on your machine. You must run ```npm run build``` to precompile ```.scss``` to ```.css```
+3. You are now able to complete the task on your machine. You must run ```npm run build:css``` to precompile ```.scss``` to ```.css```
 
 ## Objective
 
